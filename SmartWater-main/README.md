@@ -1,0 +1,63 @@
+# SmartWater Analytics Platform
+
+SmartWater is an IoT and AI-powered water quality monitoring platform designed to support industrial wastewater supervision, anomaly detection, risk prediction, and data-driven decision making.
+
+Built as a responsive web-based system, SmartWater connects real-time sensor monitoring with intelligent analytics to help industries and environmental authorities respond faster to water quality risks.
+
+## Key Features
+
+- Real-time water quality monitoring
+- IoT device and station management
+- Regional monitoring dashboard
+- Early warning and incident tracking
+- AI-based anomaly and risk analysis
+- Industrial compliance overview
+- Parameter limit monitoring
+- Role-based access for Administrator, DLH, and Industry users
+
+## Monitored Parameters
+
+SmartWater supports eight key wastewater parameters:
+
+- pH
+- Temperature
+- TDS
+- Turbidity
+- DO
+- COD
+- BOD
+- TSS
+
+## Tech Stack
+
+### Frontend
+- React
+- Vite
+- JavaScript
+- Tailwind CSS
+- React Router
+- Lucide React
+
+### Planned Backend
+- Node.js
+- Express.js
+- PostgreSQL
+- Prisma ORM
+- MQTT / HTTP integration
+
+### AI
+- Python
+- FastAPI
+- Machine Learning for anomaly detection and risk prediction
+
+## Project Structure
+
+```text
+SMARTWATER/
+├── apps/
+│   ├── web/        # Admin & DLH
+│   └── mobile/     # Industry mobile web
+├── docs/
+├── references/
+├── .agents/
+└── README.md
